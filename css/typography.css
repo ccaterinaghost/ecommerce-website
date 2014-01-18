@@ -3,3 +3,186 @@
   - Dark green: #060 - rgb(0, 100, 0)
   - Dark red: #600 - rgb(100, 0, 0)
  */
+html {
+  font: normal 100%/1.5 helvetica; /* 16px/24px */
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl,
+blockquote, table, hr {
+  margin: 0 0 1.5rem;
+  color: #333300;
+}
+
+.yotta {
+  font-size: 11.3018rem;
+  line-height: 1.0618;
+}
+
+.zetta {
+  font-size: 7.9928rem;
+  line-height: 1.1260;
+}
+
+h1, .exa {
+  font-size: 5.6526rem;
+  line-height: 1.0615;
+}
+
+h2, .peta {
+  font-size: 3.9976rem;
+  line-height: 1.1257;
+}
+
+h3, .tera {
+  font-size: 2.8271rem;
+  line-height: 1.0611;
+}
+
+h4, .giga {
+  font-size: 1.9994rem;
+  line-height: 1.5005;
+}
+
+h5, .mega {
+  font-size: 1.4140rem;
+  line-height: 1.0608;
+}
+
+h6, .kilo {
+  font-size: 1.0000rem;
+  line-height: 1.5000;
+}
+
+small, .milli {
+  font-size: 0.7072rem;
+  line-height: 2.1210;
+}
+
+.micro {
+  font-size: 0.5002rem;
+  line-height: 2.1210;
+}
+
+
+h1, h2, h3, h4, h5, h6, .brand{
+	color: #333300;
+	font-family: Helvetica, sans-serif;
+}
+
+/*changes colour of stuff when highlighted*/
+::selection {
+	/* makes just text go orange, no backround highlight when highlighted :    color: orange;  */
+	background-color: #333300;
+	color: #fff;
+}
+
+a, 
+a:link {
+	color: #333300;
+	text-decoration: none;
+	border-bottom: 0.1rem solid rgba(140, 15, 1, 0.5);
+	transition: all 200ms linear;
+}
+
+a:visited{
+	color: #B84D18;
+	border-bottom-color: rgba(140, 15, 1, 0.5);
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #B84D18;
+	border-bottom-color: rgba(140, 15, 1, 0.5);
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li {
+	position: relative;
+}
+
+ul li:before{
+	content:"·";
+	color: #666;
+	position: absolute;
+	left: -0.5em;
+}
+
+blockquote {
+  background: #C4B29E;
+  margin: 1.5em 10px;
+  padding: 2rem 20px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #333300;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.15em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+blockquote cite {
+color: #B84D18;
+font-size: 1.25rem;
+}
+
+hr {
+	border: 0.1rem solid #2B3E43;
+}
+
+sup, sub{
+	margin-left: 0.1rem;
+}
+
+i{
+	font-style: normal;
+}
+
+b{
+	font-weight: normal;
+}
+
+q:before,
+q:after {
+	content: none;
+}
+
+mark{
+	color: #fff;
+	background-color: #333300;
+	padding: 0.25rem;
+}
+
+caption{
+	font-size: 0.7072rem;
+	text-align: right;
+}
+
+th {
+	padding: 0.25rem;
+	text-align: right;
+	color: #333300;
+	background-color: #C4B29E;
+}
+
+td {
+	text-align: center;
+	padding: 0.25rem;
+	background-color: rgba(43, 62, 67, 0.25);
+}
+
+ins{
+	text-decoration: none;
+	border-bottom: 0.1rem solid rgba(0, 0, 0, 0.5);
+}
