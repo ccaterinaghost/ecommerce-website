@@ -1,8 +1,9 @@
 /*
   Colour Palette
-  - Dark green: #060 - rgb(0, 100, 0)
-  - Dark red: #600 - rgb(100, 0, 0)
- */
+  - Black-green/darkgrey: #333300 - rgb(140, 15, 1)
+  - Orange: #B84D18 - rgb(140, 15, 1)
+  - Beige: #C4B29E - rbg(196, 178, 158);
+  - Blue-black: #2B3E43 - rbg(43, 62, 67)  */
 html {
   font: normal 100%/1.5 helvetica; /* 16px/24px */
 }
