@@ -1,0 +1,20 @@
+.btn,
+.btn:link,
+.btn:visited {
+	display: inline-block;
+	padding: 0.75rem .5em;
+	background-color: #793284;
+	background-image: linear-gradient(to bottom, #B95D29, #B84D18);
+	border-radius: 8px;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+	color: #fff;
+	font-weight: bold;
+	border: 0;
+}
+
+.btn-alt,
+.btn-alt:link,
+.btn-alt:visited{
+	background-color: #2B3E43;
+	background-image: linear-gradient(to bottom, #333300, #222200);
+}

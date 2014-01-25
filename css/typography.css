@@ -3,7 +3,8 @@
   - Black-green/darkgrey: #333300 - rgb(140, 15, 1)
   - Orange: #B84D18 - rgb(140, 15, 1)
   - Beige: #C4B29E - rbg(196, 178, 158);
-  - Blue-black: #2B3E43 - rbg(43, 62, 67)  */
+  - Blue-black: #2B3E43 - rbg(43, 62, 67)
+  - Seashell beige: #FFF5EE;  */
 html {
   font: normal 100%/1.5 helvetica; /* 16px/24px */
 }
@@ -42,7 +43,7 @@ h3, .tera {
 
 h4, .giga {
   font-size: 1.9994rem;
-  line-height: 1.5005;
+  line-height: 1.2005;
 }
 
 h5, .mega {
@@ -83,7 +84,7 @@ a:link {
 	color: #333300;
 	text-decoration: none;
 	border-bottom: 0.1rem solid rgba(140, 15, 1, 0.5);
-	transition: all 200ms linear;
+	transition: all 400ms linear;
 }
 
 a:visited{
@@ -134,8 +135,8 @@ blockquote p {
 }
 
 blockquote cite {
-color: #B84D18;
-font-size: 1.25rem;
+  color: #B84D18;
+  font-size: 1.25rem;
 }
 
 hr {
