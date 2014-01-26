@@ -1,0 +1,18 @@
+/*vertical*/
+
+.list-group{
+	list-style-type: none;
+}
+
+.list-group-item:before {
+	content: "";
+}
+
+.list-group-item{
+	display: block;
+}
+
+/*horizontal */
+.list-group-item-inline{
+	display: inline-block;
+}
