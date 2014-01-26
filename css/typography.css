@@ -189,3 +189,18 @@ ins{
 	text-decoration: none;
 	border-bottom: 0.1rem solid rgba(0, 0, 0, 0.5);
 }
+
+.flex-img{
+  width: 100%;
+  display: block;
+}
+
+.space-none{
+  margin-bottom: 0;
+}
+
+.pro-name{
+  width: 100%;
+  background-color: #fff;
+  padding: 0.25rem 0.1rem;
+}
