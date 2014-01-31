@@ -2,9 +2,9 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Header</title>
-</head>
-	<link href="../css/typography.css" rel="stylesheet">
+  <title>Footer</title>
+  	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+ 	<link href="../css/typography.css" rel="stylesheet">
 	<link href="..css/bucket.css" rel="stylesheet">
  	<link href="../css/list-group.css" rel="stylesheet">
  	<link href="../css/buttons.css" rel="stylesheet">
@@ -15,19 +15,35 @@
  	<link href="../css/form.css" rel="stylesheet">
  	<link href="../css/header.css" rel="stylesheet">
  	<link href="../css/footer.css" rel="stylesheet">
-
+</head>
+	
+<body>
+	<img class="flex-img" src="http://placehold.it/500x500" alt"">
+</body>
 <footer>
 	<div class="grid">
-		<div class="gutter unit unit-s-1 unit-m-1-4 unit-l-1-4">
-			<img class="logo" src="http://placehold.it/100x100" alt"">
+		<div class="gutter unit-s-1 unit-m-1-2 social">
+			<a href="www.facebook.com"><i class="fa fa-facebook social"></i><span class="hide-text">Facebook</span></a>
+			<a href="www.twitter.com" ><i class="fa fa-twitter social"></i><span class="hide-text">Twitter</span></a>
+			<a href="www.google.com"><i class="fa fa-google-plus social"></i><span class="hide-text">Googleplus</span></a>
 		</div>
-		<div class="gutter unit ly unit-s-1 unit-m-37-5 unit-l-1-4">
-			<h3>Lysithea</h3>
+		<div class="gutter unit-s-1 unit-m-1-2">
+			<form class="btn btn-alt"id="cse-search-box" action="http://google.com/cse">
+	 	 		<input type="hidden" name="cx" value="YOUR SEARCH ENGINE ID goes here"/>
+	  			<input type="hidden" name="ie" value="UTF-8"/>
+	  			<input type="text" name="q" size="20"/>
+	  			<input class="btn btn-alt" type="submit" name="sa" value="Search"/>
+			</form>	
 		</div>
-		<div class="link-bar unit gutter unit-s-1 unit-m-37-5 unit-l-1-2">
-				<a class="nav" href="#">Home</a> 
-				<a class="nav" href="#">Items</a>
-				<a class="nav" href="#">FAQ</a>
+		<div class="gutter unit unit-s-1">
+			<p class="micro">© 2014 Lysithea, Inc.</p>
+		</div>
+		<div class="link-bar-bottom unit gutter unit-s-1">
+				<a class="nav micro" href="#">Home</a> 
+				<a class="nav micro" href="#">Items</a>
+ 				<a class="nav micro" href="#">FAQ</a>
+ 				<a class="nav micro" href="#">Terms of Use</a>
+
 		</div>
 	</div>
 </footer>

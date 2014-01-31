@@ -6,7 +6,8 @@
 	margin-top: 1rem;
 }
 
-.link-bar{
+.link-bar,
+.link-bar-bottom{
 	background-color: #eae8e1;
 }
 

@@ -1,3 +1,24 @@
 footer{
-	margin-bottom: 0;
+	margin-top: 1rem;
+}
+
+.hide-text {
+	display: none;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.social{
+	margin-right: .5rem;
+	padding: .5rem;
+	float: right;
+}
+
+@media only screen and (min-width: 30em) {
+	.social{
+		float: left;
+		overflow: none;
+	}
+
 }
