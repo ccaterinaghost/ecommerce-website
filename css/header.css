@@ -2,23 +2,29 @@
 	padding: 0.5rem;
 }
 
+.logo{
+	margin-top: 1rem;
+}
+
 .link-bar{
-	background-color: #C4B29E;
+	background-color: #eae8e1;
 }
 
 @media only screen and (min-width: 40em) {
 	.link-bar,
 	.ly{
 		margin-top: 5.4rem;
-		background-color: #fff;
 		padding: 0;	
 	}
 
 	.ly{
 		margin-top: 4rem;
-		background-color: #fff;
 		padding: 0;	
 	}
+
+	.link-bar{
+	background-color: #C4B29E;
+}
 
 }
 
