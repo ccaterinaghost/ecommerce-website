@@ -12,20 +12,15 @@
 }
 
 @media only screen and (min-width: 40em) {
-	.link-bar,
 	.ly{
-		margin-top: 5.4rem;
 		padding: 0;	
-	}
-
-	.ly{
-		margin-top: 4rem;
-		padding: 0;	
+		margin-left: 1.2rem;
 	}
 
 	.link-bar{
-	background-color: #C4B29E;
-}
+		margin-left: -.8rem;
+		background-color: #C4B29E;
+	}
 
 }
 
