@@ -18,7 +18,6 @@ footer{
 @media only screen and (min-width: 30em) {
 	.social{
 		float: left;
-		overflow: none;
 	}
 
 }
