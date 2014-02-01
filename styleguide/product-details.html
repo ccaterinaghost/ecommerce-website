@@ -4,12 +4,78 @@
   <meta charset="utf-8">
   <title>Product Details</title>
 </head>
-	<link href="../css/typography.css" rel="stylesheet">
+	 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+ 	<link href="../css/typography.css" rel="stylesheet">
+	<link href="..css/bucket.css" rel="stylesheet">
  	<link href="../css/list-group.css" rel="stylesheet">
+ 	<link href="../css/grid.css" rel="stylesheet">
+ 	<link href="../css/form.css" rel="stylesheet">
+ 	<link href="../css/header.css" rel="stylesheet">
+ 	<link href="../css/footer.css" rel="stylesheet">
  	<link href="../css/buttons.css" rel="stylesheet">
  	<link href="../css/media-object.css" rel="stylesheet">
  	<link href="../css/product-list.css" rel="stylesheet">
+ 	<link href="../css/common.css" rel="stylesheet">
 <body>
+	<div class="grid">
+		<div class="gutter unit unit-s-1 unit-m-1-4 unit-l-1-4">
+			<img class="logo" src="http://placehold.it/100x100" alt"">
+		</div>
+		<div class="gutter unit ly unit-s-1 unit-m-37-5 unit-l-1-4">
+			<h3>Lysithea</h3>
+		</div>
+		<div class="link-bar unit gutter unit-s-1 unit-m-37-5 unit-l-1-2">
+				<a class="nav" href="#">Home</a> 
+				<a class="nav" href="#">Shop</a>
+				<a class="nav" href="#">Shopping Cart</a>
+		</div>
+	</div>
+	<div class="product">
+			
+			<div class="media">
+				<div class="media-img media-img-stacked">
+					<img class="flex-img" src="http://placehold.it/256x100" alt="">
+				</div>
+				<div class="media-body">
+					<h2 class="mega space-none pro-name">Product Name</h2>
+					<p>Lorem ipsum dolor sit amet, consectetuer andiscing elit.</p>
+				</div>
+			</div>
+
+		<ul class="list-group">
+			<li class="list-group-item list-group-item-inline"><img src="http://placehold.it/24x24/B84D18" alt""></li>
+			<li class="list-group-item list-group-item-inline"><img src="http://placehold.it/24x24/433F34" alt""></li>
+			<li class="list-group-item list-group-item-inline"><img src="http://placehold.it/24x24/2B3E43" alt""></li>
+		</ul>
+		<a class="btn btn-alt kilo" href="#">Buy Now</a>
+
+	</div>
   
 </body>
+<footer>
+	<div class="grid">
+		<div class="gutter unit-s-1 unit-m-1-4 unit-l-1 social-div">
+			<a href="www.facebook.com"><i class="fa fa-facebook social"></i><span class="hide-text">Facebook</span></a>
+			<a href="www.twitter.com" ><i class="fa fa-twitter social"></i><span class="hide-text">Twitter</span></a>
+			<a href="www.google.com"><i class="fa fa-google-plus social"></i><span class="hide-text">Googleplus</span></a>
+		</div>
+		<div class="gutter unit-s-1 unit-m-1-2 unit-l-1">
+			<form class="btn btn-alt" id="cse-search-box" action="http://google.com/cse"/>
+	 	 		<input type="hidden" name="cx" value="YOUR SEARCH ENGINE ID goes here"/>
+	  			<input type="hidden" name="ie" value="UTF-8"/>
+	  			<input type="text" name="q" size="30"/>
+	  			<input class="btn btn-alt" type="submit" name="sa" value="Search"/>
+			</form>	
+		</div>
+		<div class="gutter unit unit-s-1 unit-m-1 unit-l-1">
+			<p class="micro"> © 2014 Lysithea, Inc.</p>
+		</div>
+		<div class="link-bar-bottom unit gutter unit-s-1 unit-m-1">
+				<a class="nav micro" href="#">Home</a> 
+				<a class="nav micro" href="#">Items</a>
+ 				<a class="nav micro" href="#">FAQ</a>
+ 				<a class="nav micro" href="#">Terms of Use</a>
+		</div>
+	</div>
+</footer>
 </html>
