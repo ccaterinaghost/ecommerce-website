@@ -2,9 +2,10 @@ form{
 	float: right;
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 40em) {
 
 	form{
+		margin-top: 0.5rem;
 		float: left;
 	}
 }
