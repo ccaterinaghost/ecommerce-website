@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Lysithea</title>
+  <title>{{page.title}} · Lysithea</title>
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -30,12 +30,18 @@
 				<h3>Lysithea</h3>
 			</div>
 			<div class="link-bar unit gutter unit-s-1 unit-m-37-5 unit-l-1-2">
-				<a class="nav" href="{{site.baseurl}}/">Home</a> 
-				<a class="nav" href="{{site.baseurl}}/about/">About</a>
-				<a class="nav" href="{{site.baseurl}}/thank-you/">Thank You</a>
+				<a class="nav {% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/">Home</a> 
+				<a class="nav {% if page.url == '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/">About</a>
+				<a class="nav {% if page.url == '/thank-you/' %}current{% endif %}" href="{{site.baseurl}}/thank-you/">Thank You</a>
 			</div>
 		</div>
 	</header>
+
+{% if page.showbanner %}
+<div class="banner">
+	<h2>{{page.bannertext}}</h2>
+</div>
+{% endif %}
 
 {{content}}
   
