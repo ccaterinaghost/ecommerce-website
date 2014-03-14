@@ -8,18 +8,21 @@ layout: default
 	<div class="gutter unit unit-s-1">
 	<p>Geometric terrariums to liven the home and living space!</p>
 	</div>
+	<div class="gutter unit unit-s-1">
+		<h2>Stand-Alone Terrrariums</h2>
+	</div>
+	<div class="gutter unit unit-s-1">
+		<ul>
+			{% for terrariums in site.pages %}
+				{% if terrariums.type == 'stand-alone' %}
+				<li>
+					{{terrariums.title}}
+				</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
+
 </div>
 
 
-<ul>
-	{% for dino in site.pages %}
-		{% if dino.category == 'dinosaur' %}
-	<li>
-		<a href="{{site.baseurl}}{{dino.url}}">
-		<img src="{{site.baseurl}}/images/{{dino.image}}" alt="">
-		{{dino.name}}
-		</a>
-	</li>
-		{% endif %}
-	{% endfor %}
-</ul>
