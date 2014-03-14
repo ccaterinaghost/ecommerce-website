@@ -4,25 +4,20 @@ layout: default
 
 <div class="grid">
 	<div class="gutter unit unit-s-1">
-		<h1>Terrariums</h1></div>
+		<h1>Terrariums</h1>
+	</div>
 	<div class="gutter unit unit-s-1">
 	<p>Geometric terrariums to liven the home and living space!</p>
 	</div>
 	<div class="gutter unit unit-s-1">
 		<h2>Stand-Alone Terrrariums</h2>
+		{% include terrarium-list.html type='stand-alone' %}
 	</div>
 	<div class="gutter unit unit-s-1">
-		<ul>
-			{% for terrariums in site.pages %}
-				{% if terrariums.type == 'stand-alone' %}
-				<li>
-					{{terrariums.title}}
-				</li>
-				{% endif %}
-			{% endfor %}
-		</ul>
-	</div>
+		<h2>Hanging Terrrariums</h2>
+		{% include terrarium-list.html type='hanging' %}
 
+	</div>
 </div>
 
 

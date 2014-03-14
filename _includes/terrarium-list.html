@@ -1,0 +1,13 @@
+<ul>
+	{% for terrariums in site.pages %}
+		{% if terrariums.type == include.type %}
+			<li>
+				<a href="{{site.baseurl}}{{terrariums.url}}"	
+					<img src="{{site.baseurl}}/images/terrariums/{{terrariums.image}}" alt"Photo of {{terrariums.title}}">
+					<h3>{{terrariums.title}}</h3>
+					<p>{{terrariums.meta}}</p>
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
