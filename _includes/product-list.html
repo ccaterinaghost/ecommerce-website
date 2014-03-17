@@ -1,0 +1,12 @@
+<ul>
+	{% for products in site.pages %}
+		{% if product.type == include.type %}
+			<li>
+				<a href="{{site.baseurl}}{{products.url}}">
+					<img src="{{site.baseurl}}/images/terrariums/{{products.image}}" alt="Photo of {{products.title}}">
+				<h3>{{products.title}}</h3>
+			</a>
+		</li>
+		{% endif %}
+	{% endfor %}
+</ul>

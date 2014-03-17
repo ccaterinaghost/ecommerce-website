@@ -1,6 +1,6 @@
 ---
 category: hanging
-title: Round
+title: Diamond
 type: hanging 
 meta: round hanging terrariums are made of resistant materials.
 name: round
