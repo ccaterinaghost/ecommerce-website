@@ -1,10 +1,12 @@
 ---
+layout: product-details
 category: standing
-title: Cubic
+title: Cubic Terrarium
+price: $15
 type: stand-alone 
 meta: Cubic stand-alone terrariums are made of resistant materials.
 name: square
 size: 7"x7"
 materials: glass, wood
-image: square-terrarium-thumbnail.jpg
+image: standing/square-terrarium-thumbnail.jpg
 ---

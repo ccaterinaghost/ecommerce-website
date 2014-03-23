@@ -1,7 +1,8 @@
 ---
 layout: product-details
 category: hanging
-title: Dodecahedron
+title: Dodecahedron Terrarium
+price: $25
 type: hanging 
 meta: dodecahedron hanging terrariums are made of resistant materials.
 name: dodecahedron
