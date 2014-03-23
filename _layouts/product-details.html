@@ -2,25 +2,28 @@
 layout: products
 ---
 <div class="product grid gutter">
-		<div class="media">
+		<div class="media gutter unit unit-s-1 unit-m-1-2">
 			<div class="media-img media-img-stacked">
-				<img class="flex-img" src="{{site.baseurl}}/images/terrarium-1/" alt="terrarium">
+				<img class="flex-img max-width" src="{{site.baseurl}}/images/terrariums/{{page.image}}" alt="terrarium">
 			</div>
-			<div class="media-body">
-				<h2 class="mega space-none pro-name">Mini Geometric Terrarium - $25CA</h2>
+			<div class="media-body max-width">
+				<h2 class="mega space-none pro-name">{{page.title}} - {{page.price}}</h2>
 				<ul>
-					<li>Handmade</li>
-					<li>Materials: stained glass, copper foil, solder, black patina, instructions, glass, terrarium, chain</li>
+					<li>{{page.meta}}</li>
+					<li>{{page.materials}}</li>
+					<li>{{page.size}}</li>
 				</ul>
 			</div>
+			<a class="btn btn-alt kilo" href="{{site.baseurl}}/cart">Add to Cart</a>
 		</div>
 
-		<ul class="list-group">
-			<h6>Similar Products</h6>
-			<li class="list-group-item list-group-item-inline"><img src="{{site.baseurl}}/images/square-terrarium-thumbnail.jpg" alt"square terrarium"></li>
-			<li class="list-group-item list-group-item-inline"><img src="{{site.baseurl}}/images/polygon-terrarium-thumbnail.jpg" alt"polygonal terrarium"></li>
-			<li class="list-group-item list-group-item-inline"><img src="{{site.baseurl}}/images/round-terrarium-thumbnail/" alt"round terrarium"></li>
+
+		<ul class="list-group gutter unit unit-s-1 unit-m-1-2">
+			<h4 class="gutter">Similar Products</h4>
+			<li class="gutter list-group-item list-group-item-inline"><a href="{{site.baseurl}}/terrariums/hanging/diamond"><img src="{{site.baseurl}}/images/terrariums/hanging/diamond-terrarium-thumbnail.jpg" alt"square terrarium"></a></li>
+			<li class="gutter list-group-item list-group-item-inline"><a href="{{site.baseurl}}/terrariums/hanging/tear"><img src="{{site.baseurl}}/images/terrariums/hanging/tear-terrarium-thumbnail.jpg" alt"polygonal terrarium"></a></li>
+			<li class="gutter list-group-item list-group-item-inline"><a href="{{site.baseurl}}/terrariums/hanging/dodecahedron"><img src="{{site.baseurl}}/images/terrariums/hanging/dodecahedron-terrarium-thumbnail.jpg"></a></li>
 		</ul>
-		<a class="btn btn-alt kilo" href="#">Add to Cart</a>
+	
 
 </div>
