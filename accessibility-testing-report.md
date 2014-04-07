@@ -6,8 +6,8 @@ User testing was conducted by Caterina O'Leary on 30·03·2014 between the times
 - Megan Davis
 - Gregory Leblanc
 - Kayla Tomkiewicz
-- {Todd Doe}
-- {Taylor Doe}
+- Alex Martin
+- David Birch
 
 ## Tasks
 
@@ -47,11 +47,10 @@ User testing was conducted by Caterina O'Leary on 30·03·2014 between the times
 - Tedious to navigate through various navigations
 - Completed all tasks
 
-### {Taylor Doe}
+### David Birch
 
-- {They completed the task as expected…}
-- {They had troubles completing a specific task…}
-- etc.
+- Found the tasks to be tedious and slow to get thru
+- Completed tasks with Ease.
 
 ---
 
