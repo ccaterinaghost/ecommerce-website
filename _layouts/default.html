@@ -23,20 +23,25 @@
 
 </head>
 <body>
-	<header>
+	<header role="banner">
 		<div class="grid">
 			<div class="gutter unit unit-s-1 unit-m-1-4 unit-l-1-4">
-				<a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/images/logo.png/" alt"logo" class="logo">
+				<a href="{{site.baseurl}}/">
+					<img src="{{site.baseurl}}/images/logo.png/" alt="logo" class="logo">
+				</a>
 			</div>
 			<div class="gutter unit ly unit-s-1 unit-m-37-5 unit-l-1-4">
-				<h3>Lysithea</h3></a>
+				<a href="{{site.baseurl}}/">
+					<h3>Lysithea</h3>
+				</a>
 			</div>
-			<div class="link-bar unit gutter unit-s-1 unit-m-37-5 unit-l-1-2">
+			<nav role="navigation"><div class="link-bar unit gutter unit-s-1 unit-m-37-5 unit-l-1-2">
 				<a class="nav {% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/">Home</a> 
 				<a class="nav {% if page.url == '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/">About</a>
 				<a class="nav {% if page.url == '/terrariums/' %}current{% endif %}" href="{{site.baseurl}}/terrariums/">Terrariums</a>
 				<a class="nav {% if page.url == '/cart/' %}current{% endif %}" href="{{site.baseurl}}/cart/">Shopping Cart</a>
 			</div>
+			</nav>
 		</div>
 	</header>
 
@@ -48,17 +53,18 @@
 
 {{content}}
   
- 	<footer>
+ 	<footer role="contentinfo">
 		<div class="grid">
-			<div class="unit gutter unit-s-1 unit-m-1-2 unit-l-2">
+			<nav><div class="unit gutter unit-s-1 unit-m-1-2 unit-l-2">
 				<div class="social-div">
 				<a href="www.facebook.com"><i class="fa fa-facebook social"></i><span class="hide-text">Facebook</span></a>
 				<a href="www.twitter.com" ><i class="fa fa-twitter social"></i><span class="hide-text">Twitter</span></a>
 				<a href="www.google.com"><i class="fa fa-google-plus social"></i><span class="hide-text">Googleplus</span></a>
 				</div>
 			</div>
+			</nav>
 		<div class="unit gutter unit-s-1 unit-m-1-2 unit-l-1-2">
-			<form method="get" class="btn btn-alt"  action="{{site.baseurl}}/search/">
+			<form method="get" class="btn btn-alt"  action="{{site.baseurl}}/search/" role="search">
 	 	 		<input type="hidden" name="cx" value="YOUR SEARCH ENGINE ID goes here"/>
 	  			<input type="hidden" name="ie" value="UTF-8"/>
 	  			<input type="text" name="q" size="30"/>
